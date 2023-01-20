@@ -14,7 +14,7 @@
         //stringarray{'str1','str2','str3','str4',...}
         //jason array = [{},{},{},...]
         //$.getJSON('파일 경로',function(data){alert(data.city.name)});
-        $.getJSON('http://api.openweathermap.org/data/2.5/forecast?id=1835848&appid=48d2a880b7b07ffbd9b975451c25b12a&units=metric', function(data){
+        $.getJSON('https://api.openweathermap.org/data/2.5/forecast?id=1835848&appid=48d2a880b7b07ffbd9b975451c25b12a&units=metric', function(data){
             //alert(data.list[0].main.temp);
 
             let $currentTemp=data.list[0].main.temp;
