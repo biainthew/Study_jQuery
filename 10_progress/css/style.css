@@ -1,0 +1,3 @@
+.progress-bar{position: relative; width: 1000px; height: 30px; margin: 3em auto; border: 1px solid orange;}
+.bar{position: absolute; top: 0; left: 0; bottom: 0; background: orchid; width: 0;}
+.num{position: absolute; top: 0; bottom: 0;right: 15px; font-size: 1.1em; color: blueviolet; line-height: 30px;}

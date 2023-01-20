@@ -1,0 +1,33 @@
+#wrap{
+    width: 600px;
+    margin-left: 200px;
+}
+#slider{
+    width: 600px;
+    margin-left: 200px;
+}
+@for $i from 1 to 10 {
+    #wrap .img#{$i}{background: url(../slideImg/Picanto_Green_0000#{$i}.jpg);}
+}
+@for $i from 10 to 100 {
+    #wrap .img#{$i}{background: url(../slideImg/Picanto_Green_000#{$i}.jpg);}
+}
+@for $i from 100 to 120 {
+    #wrap .img#{$i}{background: url(../slideImg/Picanto_Green_00#{$i}.jpg);}
+}
+p{
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    display: none;
+    &:first-child{
+        display: block;
+    }
+}
+.ui-state-default{
+    background: pink !important;
+    outline: none !important;
+}
+.ui-state-active{
+    border: 1px solid rgb(255, 162, 219) !important;
+}

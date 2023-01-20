@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+.container{width: 500px; border: 5px solid #ddd; padding: 20px; margin: 30px auto;}
+h1{text-align: center; margin-bottom: 20px;}
+form > .ui-widget{margin-bottom: 20px;}
+form > .ui-widget label{display: block; margin-bottom: 5px; font-weight: bold;}
+form > .ui-widget select{display: block; }
+.ui-icon-triangle-1-s {
+    background-position: -65px -12px;
+}
+
+.ui-selectmenu-button.ui-button { width: 100%;}
+/* .ui-button { width: 100%;} */
+.ui-spinner-button.ui-button {
+    width: 50px;
+}
+.ui-widget.ui-widget-content {
+   width: 100%
+}
+input{outline: none;}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #f58888;
+    background: #ffffff;
+    font-weight: normal;
+    color: #454545;
+  }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+    border: 1px solid #2c84f1;
+    background: #57d5f7;
+    font-weight: normal;
+    color: #f8f4f4;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #f14405;
+    background: #f3ac08;
+    font-weight: normal;
+    color: #ffffff;
+}
+.ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+    background: rgb(255, 255, 255);
+    width: 450px;
+}
+#datepicker{position: relative;}
+
+fieldset{padding: 20px 10px; border: 1px solid #f58888}
+
+#submit{margin-top: 20px; text-align: center; width: 100%}
+#progress{position: relative; height: 20px;}
+#progress .pct{position: absolute; width: 100%; line-height: 20px; font-size: 12px; color: #444; text-align: center;}

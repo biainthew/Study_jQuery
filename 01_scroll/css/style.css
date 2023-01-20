@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+.section{position: relative; width: 100%; color: #fff; text-align: center; font-weight: 600; text-transform: uppercase; font-size: 100px; line-height: 900px; height: 100vh;}
+#section1{background: rgb(255, 199, 199);}
+#section2{background: rgb(255, 214, 176);}
+#section3{background: rgb(255, 241, 162);}
+#section4{background: rgb(225, 255, 191);}
+#section5{background: rgb(117, 173, 134);}
+#section6{background: rgb(190, 237, 255);}
+#section7{background: rgb(85, 125, 185);}
+#section8{background: rgb(236, 159, 255);}
+#section9{background: rgb(255, 189, 217);}

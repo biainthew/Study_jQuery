@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form JQuery UI</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post" name="form1" id="form1">
+            <h1>Form UI Elements</h1>
+            <div class="ui-widget">
+                <label for="location">지역</label>
+                <select id="location">
+                    <optgroup label="city">
+                        <option value="제주">제주</option>    
+                        <option value="서울">서울</option>    
+                        <option value="경기">경기</option>    
+                    </optgroup>
+                    <optgroup label="city1">
+                        <option value="한림">한림</option>
+                        <option value="서귀포">서귀포</option>
+                        <option value="종로">종로</option>
+                        <option value="강남">강남</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="ui-widget">
+                <label for="category">자동글생성  </label>
+                <input type="text" id="category" class="ui-button">
+            </div>
+            <div class="ui-widget">
+                <label for="spinner">Select a value:</label>
+                <input id="spinner" name="value" class="">     
+            </div>
+            <div class="ui-widget">
+                <label for="startDate">언제부터 출근 가능하세요?</label>
+                <input type="text" id="datepicker" class="ui-button">
+            </div>
+
+            <fieldset>
+                <legend>우리 회사는 어떻게 알고 지원하셨나요?</legend>
+                <input type="radio" id="Internet" value="Internet" name="refer">
+                <label for="Internet">Internet</label>
+                <input type="radio" id="tv" value="tv"  name="refer">
+                <label for="tv">tv</label>
+                <input type="radio" id="other" value="other"  name="refer">
+                <label for="other">다른경로</label>
+            </fieldset>
+
+            <button id="submit">submit</button>
+
+            <div id="progress">
+                <div class="pct"><span>0</span>% 완료</div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+$('.section01').hover(function(){
+    $(this).stop().animate({width:'920px'},500)
+},function(){
+    $(this).stop().animate({width:'200px'},500)
+});
+$('.section02').hover(function(){
+    $(this).stop().animate({width:'920px'},500)
+    $('.section01').stop().animate({marginRight:'-240px'},500)
+},function(){
+    $(this).stop().animate({width:'200px'},500)
+    $('.section01').stop().animate({marginRight:0})
+});
+$('.section03').hover(function(){
+    $(this).stop().animate({width:'920px'},500)
+    $('.section01').stop().animate({marginRight:'-240px'},500)
+    $('.section02').stop().animate({marginRight:'-240px'},500)
+},function(){
+    $(this).stop().animate({width:'200px'},500)
+    $('.section01').stop().animate({marginRight:0},500)
+    $('.section02').stop().animate({marginRight:0},500)
+});
+$('.section04').hover(function(){
+    $(this).stop().animate({width:'920px'},500)
+    $('.section01').stop().animate({marginRight:'-240px'},500)
+    $('.section02').stop().animate({marginRight:'-240px'},500)
+    $('.section03').stop().animate({marginRight:'-240px'},500)
+},function(){
+    $(this).stop().animate({width:'200px'},500)
+    $('.section01').stop().animate({marginRight:0},500)
+    $('.section02').stop().animate({marginRight:0},500)
+    $('.section03').stop().animate({marginRight:0},500)
+});
+
+//$('.visual').stop().animate({left:'-240px'},500)

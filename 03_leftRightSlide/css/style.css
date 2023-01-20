@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0;}
+
+#box{width: 100% ; background: #edecec;}
+.issue{background: #fffafa; width: 100%; height: 650px;}
+.container{width: 90%; height: 600px;margin: 25px 5%; position: relative;}
+.imgBox .right{right: 0;}
+
+.page{position: absolute; width: 680px; height: 450px; top: 0; left: 50%; margin-left: -340px;}
+.page .view{position: absolute; height: 450px; width: 0%; overflow: hidden;}
+.page .view.on{width: 100%;}
+.btn a{
+    position: absolute;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+    top: 40%;
+
+}
+.btn .prev{
+    left: 100px;
+    transform: rotate(90deg);
+}
+.btn .next{
+    right: 100px;
+    transform: rotate(-90deg);
+}
+.pager{position: absolute; bottom: 50px; left: 50%; transform: translate(-50%);}
+.pager a{display: block; float: left; width: 15px; height: 15px; background: #d0d0d0; margin: 0 5px; border-radius: 50%;}
+.pager a.on{background: #333;}

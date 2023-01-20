@@ -1,0 +1,19 @@
+#ground{width: 500px; height: 700px; background: forestgreen; margin: 0 auto; border: 15px solid saddlebrown; position: relative;}
+#stick{width: 20px; height: 300px; left: 50%; bottom: -100px;  position: absolute; transform: translateX(-50%) ; background: burlywood; border-radius: 40% 40% 0 0 ;}
+.ball{width: 20px; height: 20px; background: white; border-radius: 50%;top: 600px; position: absolute; left: 50%;  transform: translateX(-50%);}
+#ball1{background: rgb(255, 0, 0); top: 250px;}
+#ball2{background: rgb(255, 102, 0);top: 230px;left: calc(50% - 10px);}
+#ball3{background: rgb(251, 255, 0);top: 230px; left: calc(50% + 10px);}
+#ball4{background: rgb(71, 235, 49);top: 210px;left: calc(50% - 20px);}
+#ball5{background: rgb(8, 100, 0);top: 210px;left: calc(50% + 20px);}
+#ball6{background: rgb(113, 222, 236);top: 190px;left: calc(50% - 30px);}
+#ball7{background: rgb(0, 81, 255);top: 190px;left: calc(50% - 10px);}
+#ball8{background: rgb(0, 7, 71);top: 190px;left: calc(50% + 10px);}
+#ball9{background: rgb(111, 0, 255);top: 190px;left: calc(50% + 30px);}
+#ball10{background: rgb(225, 147, 255); top: 170px; left: calc(50% - 40px);}
+#ball15{background: rgb(126, 13, 66); top: 170px; left: calc(50% - 20px);}
+#ball11{background: rgb(255, 137, 216); top: 170px;}
+#ball12{background: rgb(255, 0, 106); top: 170px; left: calc(50% + 20px);}
+#ball13{background: rgb(255, 195, 116); top: 210px;}
+#ball14{background: rgb(87, 84, 84);top: 170px; left: calc(50% + 40px);}
+.ball#ball100{background: #fff; top: 480px;}

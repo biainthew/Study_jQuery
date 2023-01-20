@@ -1,0 +1,6 @@
+*{margin: 0; padding: 0;}
+#wrap{width: 600px; margin: 100px auto; border: 1px solid #ddd;}
+.content{width: 2400px; height: 300px; position: relative;}
+img{display: block; width: 600px; height: 100%; float: left;}
+.scrollBar{width: 600px; height: 10px; background: #ddd;}
+.box{width: 30px; height: 10px; background: pink; margin-top: 5px;}

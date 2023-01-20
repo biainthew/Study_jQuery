@@ -1,0 +1,504 @@
+#wrap {
+  width: 600px;
+  margin-left: 200px;
+}
+
+#slider {
+  width: 600px;
+  margin-left: 200px;
+}
+
+#wrap .img1 {
+  background: url(../slideImg/Picanto_Green_00001.jpg);
+}
+
+#wrap .img2 {
+  background: url(../slideImg/Picanto_Green_00002.jpg);
+}
+
+#wrap .img3 {
+  background: url(../slideImg/Picanto_Green_00003.jpg);
+}
+
+#wrap .img4 {
+  background: url(../slideImg/Picanto_Green_00004.jpg);
+}
+
+#wrap .img5 {
+  background: url(../slideImg/Picanto_Green_00005.jpg);
+}
+
+#wrap .img6 {
+  background: url(../slideImg/Picanto_Green_00006.jpg);
+}
+
+#wrap .img7 {
+  background: url(../slideImg/Picanto_Green_00007.jpg);
+}
+
+#wrap .img8 {
+  background: url(../slideImg/Picanto_Green_00008.jpg);
+}
+
+#wrap .img9 {
+  background: url(../slideImg/Picanto_Green_00009.jpg);
+}
+
+#wrap .img10 {
+  background: url(../slideImg/Picanto_Green_00010.jpg);
+}
+
+#wrap .img11 {
+  background: url(../slideImg/Picanto_Green_00011.jpg);
+}
+
+#wrap .img12 {
+  background: url(../slideImg/Picanto_Green_00012.jpg);
+}
+
+#wrap .img13 {
+  background: url(../slideImg/Picanto_Green_00013.jpg);
+}
+
+#wrap .img14 {
+  background: url(../slideImg/Picanto_Green_00014.jpg);
+}
+
+#wrap .img15 {
+  background: url(../slideImg/Picanto_Green_00015.jpg);
+}
+
+#wrap .img16 {
+  background: url(../slideImg/Picanto_Green_00016.jpg);
+}
+
+#wrap .img17 {
+  background: url(../slideImg/Picanto_Green_00017.jpg);
+}
+
+#wrap .img18 {
+  background: url(../slideImg/Picanto_Green_00018.jpg);
+}
+
+#wrap .img19 {
+  background: url(../slideImg/Picanto_Green_00019.jpg);
+}
+
+#wrap .img20 {
+  background: url(../slideImg/Picanto_Green_00020.jpg);
+}
+
+#wrap .img21 {
+  background: url(../slideImg/Picanto_Green_00021.jpg);
+}
+
+#wrap .img22 {
+  background: url(../slideImg/Picanto_Green_00022.jpg);
+}
+
+#wrap .img23 {
+  background: url(../slideImg/Picanto_Green_00023.jpg);
+}
+
+#wrap .img24 {
+  background: url(../slideImg/Picanto_Green_00024.jpg);
+}
+
+#wrap .img25 {
+  background: url(../slideImg/Picanto_Green_00025.jpg);
+}
+
+#wrap .img26 {
+  background: url(../slideImg/Picanto_Green_00026.jpg);
+}
+
+#wrap .img27 {
+  background: url(../slideImg/Picanto_Green_00027.jpg);
+}
+
+#wrap .img28 {
+  background: url(../slideImg/Picanto_Green_00028.jpg);
+}
+
+#wrap .img29 {
+  background: url(../slideImg/Picanto_Green_00029.jpg);
+}
+
+#wrap .img30 {
+  background: url(../slideImg/Picanto_Green_00030.jpg);
+}
+
+#wrap .img31 {
+  background: url(../slideImg/Picanto_Green_00031.jpg);
+}
+
+#wrap .img32 {
+  background: url(../slideImg/Picanto_Green_00032.jpg);
+}
+
+#wrap .img33 {
+  background: url(../slideImg/Picanto_Green_00033.jpg);
+}
+
+#wrap .img34 {
+  background: url(../slideImg/Picanto_Green_00034.jpg);
+}
+
+#wrap .img35 {
+  background: url(../slideImg/Picanto_Green_00035.jpg);
+}
+
+#wrap .img36 {
+  background: url(../slideImg/Picanto_Green_00036.jpg);
+}
+
+#wrap .img37 {
+  background: url(../slideImg/Picanto_Green_00037.jpg);
+}
+
+#wrap .img38 {
+  background: url(../slideImg/Picanto_Green_00038.jpg);
+}
+
+#wrap .img39 {
+  background: url(../slideImg/Picanto_Green_00039.jpg);
+}
+
+#wrap .img40 {
+  background: url(../slideImg/Picanto_Green_00040.jpg);
+}
+
+#wrap .img41 {
+  background: url(../slideImg/Picanto_Green_00041.jpg);
+}
+
+#wrap .img42 {
+  background: url(../slideImg/Picanto_Green_00042.jpg);
+}
+
+#wrap .img43 {
+  background: url(../slideImg/Picanto_Green_00043.jpg);
+}
+
+#wrap .img44 {
+  background: url(../slideImg/Picanto_Green_00044.jpg);
+}
+
+#wrap .img45 {
+  background: url(../slideImg/Picanto_Green_00045.jpg);
+}
+
+#wrap .img46 {
+  background: url(../slideImg/Picanto_Green_00046.jpg);
+}
+
+#wrap .img47 {
+  background: url(../slideImg/Picanto_Green_00047.jpg);
+}
+
+#wrap .img48 {
+  background: url(../slideImg/Picanto_Green_00048.jpg);
+}
+
+#wrap .img49 {
+  background: url(../slideImg/Picanto_Green_00049.jpg);
+}
+
+#wrap .img50 {
+  background: url(../slideImg/Picanto_Green_00050.jpg);
+}
+
+#wrap .img51 {
+  background: url(../slideImg/Picanto_Green_00051.jpg);
+}
+
+#wrap .img52 {
+  background: url(../slideImg/Picanto_Green_00052.jpg);
+}
+
+#wrap .img53 {
+  background: url(../slideImg/Picanto_Green_00053.jpg);
+}
+
+#wrap .img54 {
+  background: url(../slideImg/Picanto_Green_00054.jpg);
+}
+
+#wrap .img55 {
+  background: url(../slideImg/Picanto_Green_00055.jpg);
+}
+
+#wrap .img56 {
+  background: url(../slideImg/Picanto_Green_00056.jpg);
+}
+
+#wrap .img57 {
+  background: url(../slideImg/Picanto_Green_00057.jpg);
+}
+
+#wrap .img58 {
+  background: url(../slideImg/Picanto_Green_00058.jpg);
+}
+
+#wrap .img59 {
+  background: url(../slideImg/Picanto_Green_00059.jpg);
+}
+
+#wrap .img60 {
+  background: url(../slideImg/Picanto_Green_00060.jpg);
+}
+
+#wrap .img61 {
+  background: url(../slideImg/Picanto_Green_00061.jpg);
+}
+
+#wrap .img62 {
+  background: url(../slideImg/Picanto_Green_00062.jpg);
+}
+
+#wrap .img63 {
+  background: url(../slideImg/Picanto_Green_00063.jpg);
+}
+
+#wrap .img64 {
+  background: url(../slideImg/Picanto_Green_00064.jpg);
+}
+
+#wrap .img65 {
+  background: url(../slideImg/Picanto_Green_00065.jpg);
+}
+
+#wrap .img66 {
+  background: url(../slideImg/Picanto_Green_00066.jpg);
+}
+
+#wrap .img67 {
+  background: url(../slideImg/Picanto_Green_00067.jpg);
+}
+
+#wrap .img68 {
+  background: url(../slideImg/Picanto_Green_00068.jpg);
+}
+
+#wrap .img69 {
+  background: url(../slideImg/Picanto_Green_00069.jpg);
+}
+
+#wrap .img70 {
+  background: url(../slideImg/Picanto_Green_00070.jpg);
+}
+
+#wrap .img71 {
+  background: url(../slideImg/Picanto_Green_00071.jpg);
+}
+
+#wrap .img72 {
+  background: url(../slideImg/Picanto_Green_00072.jpg);
+}
+
+#wrap .img73 {
+  background: url(../slideImg/Picanto_Green_00073.jpg);
+}
+
+#wrap .img74 {
+  background: url(../slideImg/Picanto_Green_00074.jpg);
+}
+
+#wrap .img75 {
+  background: url(../slideImg/Picanto_Green_00075.jpg);
+}
+
+#wrap .img76 {
+  background: url(../slideImg/Picanto_Green_00076.jpg);
+}
+
+#wrap .img77 {
+  background: url(../slideImg/Picanto_Green_00077.jpg);
+}
+
+#wrap .img78 {
+  background: url(../slideImg/Picanto_Green_00078.jpg);
+}
+
+#wrap .img79 {
+  background: url(../slideImg/Picanto_Green_00079.jpg);
+}
+
+#wrap .img80 {
+  background: url(../slideImg/Picanto_Green_00080.jpg);
+}
+
+#wrap .img81 {
+  background: url(../slideImg/Picanto_Green_00081.jpg);
+}
+
+#wrap .img82 {
+  background: url(../slideImg/Picanto_Green_00082.jpg);
+}
+
+#wrap .img83 {
+  background: url(../slideImg/Picanto_Green_00083.jpg);
+}
+
+#wrap .img84 {
+  background: url(../slideImg/Picanto_Green_00084.jpg);
+}
+
+#wrap .img85 {
+  background: url(../slideImg/Picanto_Green_00085.jpg);
+}
+
+#wrap .img86 {
+  background: url(../slideImg/Picanto_Green_00086.jpg);
+}
+
+#wrap .img87 {
+  background: url(../slideImg/Picanto_Green_00087.jpg);
+}
+
+#wrap .img88 {
+  background: url(../slideImg/Picanto_Green_00088.jpg);
+}
+
+#wrap .img89 {
+  background: url(../slideImg/Picanto_Green_00089.jpg);
+}
+
+#wrap .img90 {
+  background: url(../slideImg/Picanto_Green_00090.jpg);
+}
+
+#wrap .img91 {
+  background: url(../slideImg/Picanto_Green_00091.jpg);
+}
+
+#wrap .img92 {
+  background: url(../slideImg/Picanto_Green_00092.jpg);
+}
+
+#wrap .img93 {
+  background: url(../slideImg/Picanto_Green_00093.jpg);
+}
+
+#wrap .img94 {
+  background: url(../slideImg/Picanto_Green_00094.jpg);
+}
+
+#wrap .img95 {
+  background: url(../slideImg/Picanto_Green_00095.jpg);
+}
+
+#wrap .img96 {
+  background: url(../slideImg/Picanto_Green_00096.jpg);
+}
+
+#wrap .img97 {
+  background: url(../slideImg/Picanto_Green_00097.jpg);
+}
+
+#wrap .img98 {
+  background: url(../slideImg/Picanto_Green_00098.jpg);
+}
+
+#wrap .img99 {
+  background: url(../slideImg/Picanto_Green_00099.jpg);
+}
+
+#wrap .img100 {
+  background: url(../slideImg/Picanto_Green_00100.jpg);
+}
+
+#wrap .img101 {
+  background: url(../slideImg/Picanto_Green_00101.jpg);
+}
+
+#wrap .img102 {
+  background: url(../slideImg/Picanto_Green_00102.jpg);
+}
+
+#wrap .img103 {
+  background: url(../slideImg/Picanto_Green_00103.jpg);
+}
+
+#wrap .img104 {
+  background: url(../slideImg/Picanto_Green_00104.jpg);
+}
+
+#wrap .img105 {
+  background: url(../slideImg/Picanto_Green_00105.jpg);
+}
+
+#wrap .img106 {
+  background: url(../slideImg/Picanto_Green_00106.jpg);
+}
+
+#wrap .img107 {
+  background: url(../slideImg/Picanto_Green_00107.jpg);
+}
+
+#wrap .img108 {
+  background: url(../slideImg/Picanto_Green_00108.jpg);
+}
+
+#wrap .img109 {
+  background: url(../slideImg/Picanto_Green_00109.jpg);
+}
+
+#wrap .img110 {
+  background: url(../slideImg/Picanto_Green_00110.jpg);
+}
+
+#wrap .img111 {
+  background: url(../slideImg/Picanto_Green_00111.jpg);
+}
+
+#wrap .img112 {
+  background: url(../slideImg/Picanto_Green_00112.jpg);
+}
+
+#wrap .img113 {
+  background: url(../slideImg/Picanto_Green_00113.jpg);
+}
+
+#wrap .img114 {
+  background: url(../slideImg/Picanto_Green_00114.jpg);
+}
+
+#wrap .img115 {
+  background: url(../slideImg/Picanto_Green_00115.jpg);
+}
+
+#wrap .img116 {
+  background: url(../slideImg/Picanto_Green_00116.jpg);
+}
+
+#wrap .img117 {
+  background: url(../slideImg/Picanto_Green_00117.jpg);
+}
+
+#wrap .img118 {
+  background: url(../slideImg/Picanto_Green_00118.jpg);
+}
+
+#wrap .img119 {
+  background: url(../slideImg/Picanto_Green_00119.jpg);
+}
+
+p {
+  width: 600px;
+  height: 400px;
+  margin-left: 100px;
+  display: none;
+}
+p:first-child {
+  display: block;
+}
+
+.ui-state-default {
+  background: pink !important;
+  outline: none !important;
+}
+
+.ui-state-active {
+  border: 1px solid rgb(255, 162, 219) !important;
+}/*# sourceMappingURL=style.css.map */

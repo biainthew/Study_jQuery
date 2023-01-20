@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일기예보</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        //48d2a880b7b07ffbd9b975451c25b12a
+        //http://api.openweathermap.org/data/2.5/forecast?id=1835848&appid=48d2a880b7b07ffbd9b975451c25b12a&units=metric 예보
+        //http://api.openweathermap.org/data/2.5/weather?id=1835848&appid=48d2a880b7b07ffbd9b975451c25b12a&units=metric 날씨
+        //array{1,2,3,4,...}
+        //stringarray{'str1','str2','str3','str4',...}
+        //jason array = [{},{},{},...]
+        //$.getJSON('파일 경로',function(data){alert(data.city.name)});
+        $.getJSON('http://api.openweathermap.org/data/2.5/forecast?id=1835848&appid=48d2a880b7b07ffbd9b975451c25b12a&units=metric', function(data){
+            //alert(data.list[0].main.temp);
+
+            let $currentTemp=data.list[0].main.temp;
+            let $currentLowTemp=data.list[0].main.temp_min;
+            let $currentHightTemp=data.list[0].main.temp_max;
+
+            let $now=new Date(Date.now());
+            //alert($now)
+            let $month=$now.getMonth()+1;
+            let $currentDate=$now.getFullYear() + '년' + $month + '월' + $now.getDate() + '일';
+            let $weatherIcon=data.list[0].weather[0].icon;
+            //http://openweathermap.org/img/wn/10d@2x.png
+
+            $('.currentTemp').append($currentTemp);
+            $('.currentLowTemp').append($currentLowTemp);
+            $('.currentHightTemp').append($currentHightTemp);
+            $('h2').prepend($currentDate);
+            $('.currentIcon').append('<img src="http://openweathermap.org/img/wn/'+$weatherIcon+'@2x.png" />')
+
+        });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <h1>weather api</h1>
+        <h2>-현재 날씨</h2>
+        <div class="currentTemp">현재: </div>
+        <div class="currentLowTemp">최저온도: </div>
+        <div class="currentHightTemp">최고온도: </div>
+        <div class="currentIcon">아이콘: </div>
+    </div>
+</body>
+</html>

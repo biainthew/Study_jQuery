@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <div class="contents">
+            <div class="section1">
+                <ul>
+                    <li>
+                        <h2>회원 서비스</h2>
+                    </li>
+                    <li>
+                        <a href="#" title="로그인"><span>로그인</span></a>
+                        <a href="#" title="회원가입" class="join on"><span>회원가입</span></a>
+                        <a href="#" title="아이디/비밀번호 찾기"><span>아이디/비밀번호 찾기</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section2">
+                <div class="title">
+                    <h1>회원가입</h1>
+                </div>
+                <div class="content">
+                    <form action="member.php" id="member" method="post" name="member">
+                        <ul>
+                            <li>
+                                <div class="line"><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet">표는 필수 입력 사항이며, [동일아이디검색] 및 [가입여부확인] 버튼을 반드시 눌러주세요</div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>사업장관리번호</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="number" name="number">
+                                    <button class="allBtn atype">사업장관리번호 확인</button>
+                                    <button class="allBtn popup">사업장관리번호 확인방법</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>사업장기호</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="giho" name="giho" class="giho-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>단위사업장기호</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <button class="allBtn atype">단위사업장검색</button>
+                                    <input type="text" id="giho2" name="giho2" class="giho-input" required>
+                                    <button class="allBtn atype">가입여부 확인하기(실명확인)</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>사업장관리아이디</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <button class="allBtn atype">단위사업장검색</button>
+                                    <input type="text" id="id" name="id" class="giho-input" placeholder="영문+숫자 6~10자 이내" required>
+                                    <button class="allBtn atype chkchk">아이디 중복검색</button>
+                                </div>
+                                <em class="point"></em>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>비밀번호</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="password" id="pw" name="pw" class="pw" placeholder="영문+숫자+특수문자(!@#$) 각 1자 이상 포함하여 9~12자 이내" required>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>비밀번호 확인</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="password" id="pw1" name="pw1" class="pw" placeholder="영문+숫자+특수문자(!@#$) 각 1자 이상 포함하여 9~12자 이내" required>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>비밀번호 분실 시 확인 질문</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <select name="question" id="question" required>
+                                        <option>질문을 선택하세요</option>
+                                        <option>나의 아버지 성함은?</option>
+                                        <option>나의 그리운 고향은?</option>
+                                        <option>나의 첫째아이 이름은?</option>
+                                        <option>나의 초등학교 이름은?</option>
+                                        <option>나의 보물 제1호는?</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>비밀번호 분실 시 확인 답변</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="answer" name="answer" class="pw" placeholder="조회 답변은 띄어쓰기 포함 10자 이내" required>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>전화번호</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="phone" name="phone" class="phone wid" placeholder='"-(하이픈) 없이 입력 (예:01012341234)"' required>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>팩스번호</span></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="fax" name="fax" class="fax wid" placeholder='"-(하이픈) 없이 입력 (예:01012341234)"'>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>담당자</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="person" name="person" class="wid" placeholder="사업장의 소속된 직장 가입자 직원 또는 대표자" required>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>이메일</span><img src="./img/KakaoTalk_20230103_093915399.png" alt="ico-bullet"></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="email" name="email" required>
+                                    <span>@</span>
+                                    <input type="text" id="email2" name="email2" required>
+                                    <select name="emailselect" id="emailselect">
+                                        <option value="">직접입력</option>
+                                        <option value="">naver.com</option>
+                                        <option value="">daum.net</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>홈페이지 주소</span></label>
+                                </div>
+                                <div class="right">
+                                    <input type="text" id="homepage" name="homepage" class="white wid" placeholder="http://">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left">
+                                    <label><span>소식지 수신여부</span></label>
+                                </div>
+                                <div class="right">
+                                        <input type="radio" class="news" id="news1" value="ok">
+                                        <label for="news1">받음</label>
+                                        <input type="radio" class="news" id="news2" value="ok">
+                                        <label for="news2">안받음 (공단의 다양한 소식을 무료로 만나보세요)</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="button-box">
+                                    <button class="submit">확인</button>
+                                    <button class="return">취소</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
